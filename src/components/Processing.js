@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useLocation, Link } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = 'https://Wititas-my-project-backend.hf.space';
+const API_URL = 'http://0.0.0.0:8000';
 
 const funFacts = [
     "เคล็ดลับ: ภาพที่มีแสงสว่างดีและเห็นใบหน้าชัดเจนให้ผลลัพธ์ที่ดีที่สุด",
