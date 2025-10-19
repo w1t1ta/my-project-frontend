@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = 'http://0.0.0.0:8000';
+const API_URL = 'https://Wititas-my-project-backend.hf.space';
 
 function SelectModel() {
   const { jobId } = useParams();
